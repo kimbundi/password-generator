@@ -1,0 +1,68 @@
+body{
+    width: 100%;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    background-color: #282569;
+}
+.passwordbox{
+    display: flex;
+    flex-direction: column;
+    background: white;
+    
+    border: none;
+    border-radius: 20px;
+    width: 500px;
+    height: 300px;
+    margin-left: 400px;
+    margin-top: 100px;
+}
+.passwordbox h4{
+    border: none;
+     width: 300px;
+     height: 50px;
+     margin: 50px;
+     font-size: 20px;
+     padding-left: 20px;
+     font-weight: bold;
+     
+}
+.passwordbox input{
+    width: 350px;
+    height: 40px;
+    font-size: 15px;
+    margin-left: 70px;
+    border-radius: 10px;
+    border: none;
+    padding-left: 20px;
+    background: #3D3F41;
+    color: white;
+    position: relative;
+}
+::placeholder{
+    color: white;
+}
+.passwordbox button{
+    border: none;
+    width: 200px;
+    margin-left: 100px;
+    height: 40px;
+    margin: 20px;
+    margin-left: 100px;
+    border-radius: 7px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    color: white;
+    font-weight: bold;
+    background: #36b357;
+    cursor: pointer;
+}
+.passwordbox img{
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    left: 810px;
+    top: 255px;
+}
